@@ -590,14 +590,14 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="\2019\06\03\Design-Pattern\" rel="bookmark">设计模式学习笔记</a></div>
+      <div class="popular-posts-title"><a href="\2018\07\19\Collection\" rel="bookmark">Java容器框架源码阅读笔记（零）Collection、Map</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="\2018\07\19\Collection\" rel="bookmark">Java容器框架源码阅读笔记（零）Collection、Map</a></div>
+      <div class="popular-posts-title"><a href="\2019\06\03\Design-Pattern\" rel="bookmark">设计模式学习笔记</a></div>
       
     </li>
   
@@ -611,7 +611,7 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="\2018\08\06\MyCache\" rel="bookmark">缓存实现思路</a></div>
+      <div class="popular-posts-title"><a href="\2018\08\15\Lock\" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
   
@@ -1423,9 +1423,14 @@
               })
           } else {
             
-              var $element = $(document.getElementById(url));
-              $element.find('.leancloud-visitors-count').text('Counter not initialized! More info at console err msg.');
-              console.error('ATTENTION! LeanCloud counter has security bug, see how to solve it here: https://github.com/theme-next/hexo-leancloud-counter-security. \n However, you can still use LeanCloud without security, by setting `security` option to `false`.');
+              Counter('post', '/classes/Counter', JSON.stringify({ title: title, url: url, time: 1 }))
+                .done(function() {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(1);
+                })
+                .fail(function() {
+                  console.log('Failed to create');
+                });
             
           }
         })
