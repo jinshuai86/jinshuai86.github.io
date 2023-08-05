@@ -480,15 +480,6 @@
 
           
           
-            <span id="/2020/04/23/ThreadPool/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（五）线程池">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -510,7 +501,7 @@
 
       
         
-          <p>线程池是存放线程的容器，内部维护了若干个线程。通过利用线程池可以避免频繁创建线程，销毁线程带来的系统内耗，提高吞吐量。在Java中用<code>Thread</code>对线程做了抽象，线程池的实现类是<code>ThreadPoolExecutor</code>。但是线程之间的切换需要系统调用进内核，一旦线程池中线程的数量比较多，线程切换带来的内耗会制约系统吞吐量。协程(在Windows上称为纤程)本质上是用户态的线程，协程的调度不需要进内核，在用户态即可完成，所以相对线程，协程更加轻量。在Java中<a href="https://vertx.io/" target="_blank" rel="noopener">vert.x</a>、<a href="http://docs.paralleluniverse.co/quasar/" target="_blank" rel="noopener">Quasar</a>、 <a href="https://openjdk.java.net/projects/loom/" target="_blank" rel="noopener">Loom</a>库中实现了协程。</p>
+          <p>线程池是存放线程的容器，内部维护了若干个线程。通过利用线程池可以避免频繁创建线程，销毁线程带来的系统内耗，提高吞吐量。在Java中用<code>Thread</code>对线程做了抽象，线程池的实现类是<code>ThreadPoolExecutor</code>。但是线程之间的切换需要系统调用进内核，一旦线程池中线程的数量比较多，线程切换带来的内耗会制约系统吞吐量。协程(在Windows上称为纤程)本质上是用户态的线程，协程的调度不需要进内核，在用户态即可完成，所以相对线程，协程更加轻量。在Java中<a href="http://docs.paralleluniverse.co/quasar/" target="_blank" rel="noopener">Quasar</a>、 <a href="https://openjdk.java.net/projects/loom/" target="_blank" rel="noopener">Loom</a>库中实现了协程。</p>
           <!--noindex-->
           
             <div class="post-button text-center">
@@ -533,20 +524,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
@@ -555,6 +532,20 @@
       
       
       <div class="popular-posts-title"><a href="/2018/08/14/Synchronizer/" rel="bookmark">J.U.C源码阅读笔记（三）同步器</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
       
     </li>
   
@@ -685,15 +676,6 @@
 
           
           
-            <span id="/2019/06/03/Design-Pattern/" class="leancloud_visitors" data-flag-title="设计模式学习笔记">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -741,13 +723,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/06/25/volatile/" rel="bookmark">volatile底层实现</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/2018/07/19/Collection/" rel="bookmark">Java容器框架源码阅读笔记（零）Collection、Map</a></div>
       
     </li>
@@ -755,14 +730,21 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/07/22/Set/" rel="bookmark">Java容器框架源码阅读笔记（三）Set</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/06/22/StopThread/" rel="bookmark">停止一个线程</a></div>
+      <div class="popular-posts-title"><a href="/2018/07/20/List/" rel="bookmark">Java容器框架源码阅读笔记（一）List</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/06/MyCache/" rel="bookmark">缓存实现思路</a></div>
       
     </li>
   
@@ -892,15 +874,6 @@
           
 
           
-          
-            <span id="/2018/12/03/Socket/" class="leancloud_visitors" data-flag-title="Linux IO模型">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
           
 
           
@@ -1065,15 +1038,6 @@
 
           
           
-            <span id="/2018/08/15/Lock/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（四）Lock">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -1118,14 +1082,7 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
+      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
       
     </li>
   
@@ -1139,7 +1096,14 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
       
     </li>
   
@@ -1270,15 +1234,6 @@
 
           
           
-            <span id="/2018/08/14/Synchronizer/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（三）同步器">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -1323,20 +1278,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
@@ -1345,6 +1286,20 @@
       
       
       <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
       
     </li>
   
@@ -1475,15 +1430,6 @@
 
           
           
-            <span id="/2018/08/12/SynchronizedContainer/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（二）并发容器">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -1528,20 +1474,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
@@ -1549,7 +1481,21 @@
     <li class="popular-posts-item">
       
       
+      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
       <div class="popular-posts-title"><a href="/2018/08/14/Synchronizer/" rel="bookmark">J.U.C源码阅读笔记（三）同步器</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
       
     </li>
   
@@ -1680,15 +1626,6 @@
 
           
           
-            <span id="/2018/08/11/aqs/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（一）AQS">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -1733,14 +1670,14 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
+      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
       
     </li>
   
@@ -1754,7 +1691,7 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/10/juc/" rel="bookmark">J.U.C源码阅读笔记（零）java.util.concurrent</a></div>
       
     </li>
   
@@ -1885,15 +1822,6 @@
 
           
           
-            <span id="/2018/08/10/juc/" class="leancloud_visitors" data-flag-title="J.U.C源码阅读笔记（零）java.util.concurrent">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -1938,14 +1866,14 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
+      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
       
     </li>
   
@@ -1959,7 +1887,7 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2020/04/23/ThreadPool/" rel="bookmark">J.U.C源码阅读笔记（五）线程池</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/11/aqs/" rel="bookmark">J.U.C源码阅读笔记（一）AQS</a></div>
       
     </li>
   
@@ -2090,15 +2018,6 @@
 
           
           
-            <span id="/2018/08/06/MyCache/" class="leancloud_visitors" data-flag-title="缓存实现思路">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -2149,13 +2068,6 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/06/26/proxy/" rel="bookmark">代理</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
       <div class="popular-posts-title"><a href="/2018/07/19/Collection/" rel="bookmark">Java容器框架源码阅读笔记（零）Collection、Map</a></div>
       
     </li>
@@ -2163,14 +2075,21 @@
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/06/22/StopThread/" rel="bookmark">停止一个线程</a></div>
+      <div class="popular-posts-title"><a href="/2018/08/15/Lock/" rel="bookmark">J.U.C源码阅读笔记（四）Lock</a></div>
       
     </li>
   
     <li class="popular-posts-item">
       
       
-      <div class="popular-posts-title"><a href="/2018/07/21/Queue&&Stack/" rel="bookmark">Java容器框架源码阅读笔记（二）Queue、Stack</a></div>
+      <div class="popular-posts-title"><a href="/2018/07/20/List/" rel="bookmark">Java容器框架源码阅读笔记（一）List</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
+      <div class="popular-posts-title"><a href="/2019/06/03/Design-Pattern/" rel="bookmark">设计模式学习笔记</a></div>
       
     </li>
   
@@ -2301,15 +2220,6 @@
 
           
           
-            <span id="/2018/07/23/Map/" class="leancloud_visitors" data-flag-title="Java容器框架源码阅读笔记（四）Map">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              
-                <span class="leancloud-visitors-count"></span>
-            </span>
-          
 
           
 
@@ -2369,6 +2279,13 @@ HashMappublic class HashMap&lt;K,V&gt; extends AbstractMap&lt;K,V&gt;    impleme
     <li class="popular-posts-item">
       
       
+      <div class="popular-posts-title"><a href="/2018/07/20/List/" rel="bookmark">Java容器框架源码阅读笔记（一）List</a></div>
+      
+    </li>
+  
+    <li class="popular-posts-item">
+      
+      
       <div class="popular-posts-title"><a href="/2018/07/22/Set/" rel="bookmark">Java容器框架源码阅读笔记（三）Set</a></div>
       
     </li>
@@ -2377,13 +2294,6 @@ HashMappublic class HashMap&lt;K,V&gt; extends AbstractMap&lt;K,V&gt;    impleme
       
       
       <div class="popular-posts-title"><a href="/2018/07/21/Queue&&Stack/" rel="bookmark">Java容器框架源码阅读笔记（二）Queue、Stack</a></div>
-      
-    </li>
-  
-    <li class="popular-posts-item">
-      
-      
-      <div class="popular-posts-title"><a href="/2018/07/20/List/" rel="bookmark">Java容器框架源码阅读笔记（一）List</a></div>
       
     </li>
   
@@ -2628,7 +2538,7 @@ HashMappublic class HashMap&lt;K,V&gt; extends AbstractMap&lt;K,V&gt;    impleme
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2022</span>
+        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2023</span>
   <span class="with-love" id="animate">
     <i class="fa fa-heart"></i>
   </span>
@@ -2654,6 +2564,32 @@ HashMappublic class HashMap&lt;K,V&gt; extends AbstractMap&lt;K,V&gt;    impleme
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
 
 
 
@@ -3091,74 +3027,6 @@ HashMappublic class HashMap&lt;K,V&gt; extends AbstractMap&lt;K,V&gt;    impleme
 
 
   
-  
-  <script>
-    
-    function showTime(Counter) {
-      var entries = [];
-      var $visitors = $('.leancloud_visitors');
-
-      $visitors.each(function() {
-        entries.push( $(this).attr('id').trim() );
-      });
-
-      Counter('get', '/classes/Counter', { where: JSON.stringify({ url: { '$in': entries } }) })
-        .done(function({ results }) {
-          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
-
-          if (results.length === 0) {
-            $visitors.find(COUNT_CONTAINER_REF).text(0);
-            return;
-          }
-
-          for (var i = 0; i < results.length; i++) {
-            var item = results[i];
-            var url = item.url;
-            var time = item.time;
-            var element = document.getElementById(url);
-
-            $(element).find(COUNT_CONTAINER_REF).text(time);
-          }
-          for (var i = 0; i < entries.length; i++) {
-            var url = entries[i];
-            var element = document.getElementById(url);
-            var countSpan = $(element).find(COUNT_CONTAINER_REF);
-            if (countSpan.text() == '') {
-              countSpan.text(0);
-            }
-          }
-        })
-        .fail(function ({ responseJSON }) {
-          console.log('LeanCloud Counter Error: ' + responseJSON.code + ' ' + responseJSON.error);
-        });
-    }
-    
-
-    $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + 'F9FYOP0JutWkzhTt6DXuCl45-gzGzoHsz')
-        .done(function({ api_server }) {
-          var Counter = function(method, url, data) {
-            return $.ajax({
-              method: method,
-              url: 'https://' + api_server + '/1.1' + url,
-              headers: {
-                'X-LC-Id': 'F9FYOP0JutWkzhTt6DXuCl45-gzGzoHsz',
-                'X-LC-Key': 'LmwJb96CBNVIbtbw160Di7p4',
-                'Content-Type': 'application/json',
-              },
-              data: data
-            });
-          };
-          
-            if ($('.post-title-link').length >= 1) {
-              showTime(Counter);
-            }
-          
-        });
-    });
-  </script>
-
-
 
   
 
